@@ -5,7 +5,7 @@ on:
     branches: main
 
 jobs:
-  login:
+  build-push-nginx-docker:
     runs-on: [ubuntu-20.04]
     steps:
       -
